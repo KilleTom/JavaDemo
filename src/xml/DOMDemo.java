@@ -60,7 +60,7 @@ public class DOMDemo {
         try {
             Transformer transformer = tf.newTransformer();
             DOMSource source = new DOMSource(document);
-            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            transformer.setOutputProperty(OutputKeys.ENCODING, "utf-8");
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             PrintWriter pw = new PrintWriter(new FileOutputStream(fileName));
             StreamResult result = new StreamResult(pw);

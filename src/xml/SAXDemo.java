@@ -121,8 +121,8 @@ class MySAXHandler extends DefaultHandler {
     }
 
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        if (qName.equals("bookstore")) return;
-        if (qName.equals("book")) System.out.println(qName);
+        if (qName.equals("employees")) return;
+        if (qName.equals("employee")) System.out.println(qName);
         if (attributes.getLength() > 0) {
             this.attributes = attributes;
             this.hasAttribute = true;

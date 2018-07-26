@@ -22,6 +22,6 @@ public class RunDemo {
         domDemo.parserXml("person");
         SAXDemo saxDemo = new SAXDemo();
         saxDemo.createXml("book");
-        saxDemo.parserXml("book");
+        saxDemo.parserXml("person");
     }
 }
